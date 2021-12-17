@@ -1,0 +1,59 @@
+.Contact-Main{
+    background-image: url('/src/assets/sea.png');
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Contact-Main p{
+    font-size: 1rem;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+#Work {
+    width: 80vw;
+    margin-top: 10vh;
+}
+
+.Contact-Social{
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Contact-Social ul li {
+    list-style-type: none;
+    margin: 2vh;
+}
+
+  @media screen and (min-width: 700px) {
+    .Contact-Main{
+        background-image: url('../assets/sea.png');
+        background-size: cover;
+        height: 100vh;
+    }
+    
+    .Contact-Main p{
+        font-size: 1.5rem;
+        color: antiquewhite;
+        display: flex;
+        justify-content: center;
+    }
+
+    #Work {
+        width: 30vw;
+        margin-top: 7vh;
+    }
+    .Contact-Social{
+        font-weight: bold;
+        font-size: 1.5rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+  }

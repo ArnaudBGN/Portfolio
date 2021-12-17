@@ -1,0 +1,68 @@
+.ProjectCard-Container {
+    text-align: center;
+}
+
+.ProjectCard-Container h3 {
+    font-size: 1.2rem;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.ProjectCard-Container h4 {
+    font-size: 1.2rem;
+    font-weight: bold ;
+    color: antiquewhite;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.ProjectCard-Container img{
+    height: 50vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    border-style: solid;
+}
+
+.ProjectCard-Container button:hover {
+    color: rgb(32, 207, 25);
+}
+
+.ProjectCard-Back {
+    height: 50vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15%;
+    border-style: solid;
+    background-image: url("./src/assets/milky-way.jpg");
+}
+
+@media screen and (min-width: 700px) {
+    .ProjectCard-Container h3 {
+        font-size: 1.2rem;
+        color: antiquewhite;
+        display: flex;
+        justify-content: center;
+        margin: 5vh;
+    }
+    
+    .ProjectCard-Container img{
+        height: 50vh;
+        width: 20vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15%;
+        border-style: solid;
+    }
+
+    .ProjectCard-Back {
+        width: 20vw;
+    }
+}

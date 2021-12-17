@@ -1,0 +1,65 @@
+.ProjectList-Main{
+    background-image: url('../assets/sea.png');
+    background-size: cover;
+}
+
+.ProjectsList-Container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.ProjectsList-Container p {
+  color: antiquewhite;
+  font-weight: bold;
+  margin: 1vh;
+
+}
+
+.Contact-Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-Button button{
+    margin: 5vh;
+    border-radius: 40%;
+    font-size: 0.8rem;
+    width: 35vw;
+    text-shadow: 0 0 0.2em orange, 0 0 0.2em yellow, 0 0 0.2em red;
+    background-image: url("/src/assets/milky-way.jpg");
+  }
+  
+  .Contact-Button button:hover {
+    color: rgb(32, 207, 25);
+  }
+
+@media screen and (min-width: 700px) {
+    .ProjectList-Main{
+        background-image: url('../assets/sea.png');
+        background-size: cover;
+        height: 90vh;
+    }
+    
+    .ProjectsList-Container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .Contact-Button button {
+        margin: 5vh;
+        font-size: 0.8rem;
+        height: 5vh;
+        width: 10vw;
+        text-shadow: 0 0 0.2em orange, 0 0 0.2em yellow, 0 0 0.2em red;
+        background-color: whitesmoke;
+      }
+      
+      .Contact-Button button:hover {
+        color: rgb(61, 219, 21);
+      }
+}

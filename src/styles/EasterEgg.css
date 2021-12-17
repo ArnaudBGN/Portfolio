@@ -1,0 +1,35 @@
+.EasterEgg-Main {
+        background-image: url('/src/assets/sea.png');
+        background-size: cover;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align:center;
+}
+
+.EasterEgg-Main p {
+    font-size: 1rem;
+    color: antiquewhite;
+    display: flex;
+    margin: 1rem;
+}
+
+#Ready {
+    width: 70vw;
+    margin-top: 10vh;
+}
+
+@media screen and (min-width:700px) {
+
+    .EasterEgg-Main p {
+        font-size: 1.5rem;
+    }
+
+    #Ready {
+        width: 20vw;
+        margin-top: 10vh;
+    }
+    
+}

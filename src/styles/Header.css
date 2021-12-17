@@ -1,0 +1,53 @@
+.Header-Main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:transparent;
+    font-weight: bold;
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Header-Main img {
+    height: 11vh;
+    width: 11vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 0 0 0.2em orange, 0 0 0.2em yellow, 0 0 0.2em red;
+}
+
+a:hover {
+    color: rgb(61, 219, 21);
+  }
+
+@media screen and (min-width: 700px) {
+
+    .Header-Main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:transparent;
+        font-weight: bold;
+        font-size: 1.5rem;
+        font-family: 'Roboto', sans-serif;
+        height: 18vh;
+    }
+    
+    .Header-Main img {
+        height: 18vh;
+        width: 18vh;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+        text-shadow: 0 0 0.2em orange, 0 0 0.2em yellow, 0 0 0.2em red;
+    }
+    
+    a:hover {
+        color: rgb(61, 219, 21);
+      }    
+}

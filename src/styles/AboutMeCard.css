@@ -1,0 +1,70 @@
+.AboutCard-Container {
+    text-align: center;
+}
+
+.AboutCard-Container h3 {
+    font-size: 1.5rem;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.AboutCard-Container img{
+    height: 50vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    border-style: solid;
+}
+
+.AboutCard-Container button:hover {
+    color: rgb(32, 207, 25);
+}
+
+.AboutCard-Back {
+    height: 50vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15%;
+    border-style: solid;
+    background-image: url("./src/assets/milky-way.jpg")
+}
+
+#Details, #Back {
+    margin-top: 1vh;
+    border-radius: 20%;
+    font-size: 0.8rem;
+    width: 15vw;
+    text-shadow: 0 0 0.2em orange, 0 0 0.2em yellow, 0 0 0.2em red;
+    background-image: url("/src/assets/milky-way.jpg");
+}
+
+@media screen and (min-width: 700px) {
+    
+    .AboutCard-Container h3 {
+        font-size: 1.2rem;
+        margin: 5vh;
+    }
+    
+    .AboutCard-Container img{
+        width: 20vw;
+    }
+
+    .AboutCard-Back {
+        width: 20vw;
+    }
+
+    #Details, #Back {
+        margin-top: 1vh;
+        border-radius: 20%;
+        font-size: 0.8rem;
+        width: 5vw;
+        text-shadow: 0 0 0.2em orange, 0 0 0.2em yellow, 0 0 0.2em red;
+        background-color: whitesmoke;
+    }
+}

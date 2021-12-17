@@ -1,0 +1,78 @@
+.AboutMe-Main{
+    background-image: url('/src/assets/sea.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.AboutCardList-Container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+
+.AboutCardList-Container ul {
+    margin-right: 4vh;
+}
+
+.AboutCardList-Container li{
+list-style-type: none;
+color: antiquewhite;
+font-weight: bold;
+}
+
+.AboutCardList-Container em {
+    font-weight: bold ;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.AboutCardList-Container p {
+    color: antiquewhite;
+    font-weight: bold;
+    margin: 1vh;
+}
+
+.About-Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-Button button {
+    margin: 5vh;
+    border-radius: 40%;
+    font-size: 0.8rem;
+    width: 35vw;
+    text-shadow: 0 0 0.2em orange, 0 0 0.2em yellow, 0 0 0.2em red;
+    background-image: url("/src/assets/milky-way.jpg");
+}
+
+@media screen and (min-width: 700px) {
+    .AboutMe-Main{
+    background-image: url('/src/assets/sea.png');
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.About-Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-Button button {
+    margin: 5vh;
+    font-size: 0.8rem;
+    height: 5vh;
+    width: 10vw;
+    text-shadow: 0 0 0.2em orange, 0 0 0.2em yellow, 0 0 0.2em red;
+
+}
+.About-Button button:hover {
+    color: rgb(32, 207, 25);
+}
+}

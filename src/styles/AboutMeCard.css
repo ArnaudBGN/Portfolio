@@ -40,7 +40,8 @@
     border-radius: 20%;
     font-size: 0.8rem;
     width: 15vw;
-    text-shadow: 0 0 0.2em orange, 0 0 0.2em yellow, 0 0 0.2em red;
+    text-shadow: 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;
+    color: burlywood;
     background-image: url("/src/assets/milky-way.jpg");
 }
 
@@ -55,6 +56,10 @@
         width: 20vw;
     }
 
+    .AboutCard-Container button:hover {
+        color: rgb(32, 207, 25);
+    }
+
     .AboutCard-Back {
         width: 20vw;
     }
@@ -64,7 +69,7 @@
         border-radius: 20%;
         font-size: 0.8rem;
         width: 5vw;
-        text-shadow: 0 0 0.2em orange, 0 0 0.2em yellow, 0 0 0.2em red;
-        background-color: whitesmoke;
+        text-shadow: 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;
+        color: burlywood;
     }
 }

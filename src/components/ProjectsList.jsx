@@ -22,13 +22,13 @@ const ProjectsList = () => {
             title="Projet 1" 
             src="./src/assets/T&D.png"
             header="Track & Destroy"
-            body={<div>
+            body={<>
                 <p>
                 Ce premier projet a été développé en deux semaines et est parti d'un brainstorming qui a bien dérivé!
                 T&D est un site internet qui a pour but de chasser et détruire des nuisibles et créatures surnaturelles. 
                 </p>
                 <a href="https://github.com/ArnaudBGN/Project-1" target="_blank">Track & Destroy</a>
-            </div> 
+            </> 
             }
             />
 
@@ -37,14 +37,14 @@ const ProjectsList = () => {
             src="./src/assets/Quest_Game.png"
             header="The Quest Game"
             body={
-                <div>
+                <>
                 <p>
                 Ce deuxième projet a été développé en 1 mois.
                 The Quest Game est un jeu de quêtes dont vous êtes le héros et qui vous laisse le choix du personnage à incarner.
                 Vous vivrez des aventures épiques... et qui piquent! Une histoire mais plusieurs chemins possibles!
                 </p>
                 <a href="https://github.com/ArnaudBGN/paris-0921-p2-groupe1" target="_blank">The Quest Game</a>
-                </div>
+                </>
             }
             />
 
@@ -52,13 +52,13 @@ const ProjectsList = () => {
             title="Hackathon 1" 
             src="./src/assets/Piano-Piano.png"
             header="Piano-Piano"
-            body={<div>
+            body={<>
                 <p>
                 Le but de ce premier Hackathon était de créer une application web en seulement 24h.
                 Piano-Piano est un site internet où les enfants peuvent apprendre à jour du piano n'importe où et de façon ludique 
                 </p>
                 <a href="https://adecisy.github.io/Piano-Piano/" target="_blank">Piano-Piano</a>
-            </div>}
+            </>}
             />
 
             {/* <ProjectCard 

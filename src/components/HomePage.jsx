@@ -1,5 +1,5 @@
 import React from 'react'
-import Video from '../assets/Stairs.mp4'
+import Video from '../assets/Welcome2.mp4'
 import '../styles/HomePage.css'
 import { useNavigate } from 'react-router'
 
@@ -11,7 +11,7 @@ const HomePage = () => {
       navigate('/AboutMe')
   }
 
-  setTimeout(goToAboutMe, 9500);
+  setTimeout(goToAboutMe, 10000);
 
   return (
    

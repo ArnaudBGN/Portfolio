@@ -52,12 +52,12 @@ const AboutMe = () => {
                     <a href="https://www.codewars.com/">Codewars</a>
                         /
                     <a href="https://github.com/ArnaudBGN">GitHub</a>
-                        <p>
-                       <li><em>Sport:</em> tennis, golf, wakeboard, musculation, snowboard </li>
-                        </p>
-                        <p>
-                        <li><em>Loisirs:</em> Le cinéma, le théâtre, les jeux vidéos, la lecture</li>
-                        </p>
+                    <p>
+                        <li><em>Loisirs:</em> Sport, voyages, cinéma, théâtre, jeux vidéos, lecture</li>
+                    </p>
+                    <p>
+                       <li><em>Sport:</em> Tennis, golf, wakeboard, snowboard, musculation </li>
+                    </p>
 
                         <li><em>Voyages:</em> 🇧🇷, 🇨🇦, 🇨🇺, 🇪🇸, 🇺🇸, 🇭🇺, 🇲🇺, 🇮🇪, 🇮🇹, 🇲🇹, 🇲🇽, 🇵🇱, 🇩🇴, 🇬🇧, 🇸🇽, 🇸🇨</li>
                     </ul>
@@ -74,7 +74,7 @@ const AboutMe = () => {
                     <em>Const Reconversion</em> = Plan de départ volontaire + découvrir nouveau domaine d'expertise.
                     </p>
                     <p>
-                    A la fin de cette formation et grâce aux nouvelles compétences acquises, je souhaiterais découvrir ce super nouveau métier.
+                    A la fin de cette formation et grâce aux nouvelles compétences acquises, je souhaiterais découvrir ce intriguant nouveau métier.
                     </p>
                     <p>
                     Je reste à l'écoute du marché et suis ouvert à toutes propositions de poste

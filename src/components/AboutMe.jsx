@@ -52,6 +52,8 @@ const AboutMe = () => {
                     <a href="https://www.codewars.com/">Codewars</a>
                         /
                     <a href="https://github.com/ArnaudBGN">GitHub</a>
+                        /
+                    <a href="https://www.codingame.com/profile/e241813ca612d58b197c71dd9c205b7d1650764">CodinGame</a>
                     <p>
                         <li><em>Loisirs:</em> Sport, voyages, cinéma, théâtre, jeux vidéos, lecture</li>
                     </p>

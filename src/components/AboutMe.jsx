@@ -24,7 +24,7 @@ const AboutMe = () => {
                 <ul>
                     <li><em>Prénom:</em> Arnaud</li>
                     <li><em>Nom:</em> BEGIN</li>
-                    <li><em>Age:</em> 30 ans</li>
+                    <li><em>Age:</em> 31 ans</li>
                     <li><em>Lieu:</em> Paris</li>
                     <li><em>Diplôme:</em> Master 2 Management et Ingénierie Financière</li>
                     <li><em>Formation:</em> Développeur Web (5 mois) @ </li>
